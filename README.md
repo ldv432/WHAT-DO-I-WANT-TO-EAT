@@ -51,7 +51,7 @@ To run this project locally, follow these steps:
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/what-do-i-want-to-eat.git
+git clone https://github.com/ldv432/what-do-i-want-to-eat.git
 cd what-do-i-want-to-eat
 ```
 
