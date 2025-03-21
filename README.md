@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+Your README is already engaging and fun! Here’s a **more polished version** with **better readability, markdown styling, and some slight refinements for flow and clarity**:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# **What Do I Want to Eat? 🍽️🤔**  
 
-In the project directory, you can run:
+We've all been there. Whether it's just you, you and your significant other, or a whole group of friends, deciding where to eat can be a struggle.  
 
-### `npm start`
+It usually takes **40 minutes of indecisiveness** before someone finally takes charge—probably dragging everyone to that **amazing hot pot place** down the road.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+But what if there was a **better way**? A **streamlined approach** where you just answer a few simple questions and have a decision made in **minutes**?  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+That's where **"WHAT DO I WANT TO EAT"** comes in.  
 
-### `npm test`
+This project is **born out of necessity** for those of us who are **chronically indecisive** when it comes to food choices. 🍕🍣🍔  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## **✨ How Does It Work? 👨🏾‍💻**  
+1. **Select Your Food Style** – Choose the type of food you’re craving (e.g., Italian, Sushi, BBQ).  
+2. **Set Your Distance** – Adjust a **slider** to define how far you're willing to drive.  
+3. **Pick Your Budget** – Enter how much you're willing to spend, **either per person or as a group**.  
+4. **Get Recommendations!** – The app will use **your location** to suggest nearby restaurants that fit your criteria.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔹 **Note:** The app **requires location access** to find restaurants near you, so make sure you **accept the location prompt** when asked!  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **🤓 The Nerdy Stuff**
+| **Tech Stack**  | **Details**  |
+|---|---|
+| **Frontend Framework**  | React  |
+| **Styling/Design**  | MUI (Material UI)  |
+| **Backend**  | Flask, SQLAlchemy, Python  |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## **📌 Features (Planned & Existing)**
+✅ **Dynamic restaurant recommendations**  
+✅ **Distance & budget filtering**  
+✅ **Clean and modern UI with MUI**  
+🛠 **Future Features:**  
+- ✅ **User preferences & saved favorites**  
+- ✅ **Integration with Yelp or Google Places API**  
+- ✅ **Group decision-making/voting system**  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## **📦 Installation & Setup**
+To run this project locally, follow these steps:  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/YOUR_GITHUB_USERNAME/what-do-i-want-to-eat.git
+cd what-do-i-want-to-eat
+```
 
-## Learn More
+### **2️⃣ Install Dependencies**
+```sh
+npm install  # Installs frontend dependencies
+pip install -r requirements.txt  # Installs backend dependencies
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **3️⃣ Run the App**
+Start the frontend:
+```sh
+npm start
+```
+Start the backend:
+```sh
+flask run
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## **🛠 Contributions**
+Want to contribute? Feel free to **fork this repository**, submit a PR, or open an issue for suggestions!  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## **📜 License**
+This project is licensed under the **MIT License**.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This version improves the **structure, readability, and engagement** while keeping your casual and fun tone! Let me know if you need any tweaks. 🚀🔥
