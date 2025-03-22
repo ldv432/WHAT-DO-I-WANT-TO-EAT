@@ -1,7 +1,3 @@
-Your README is already engaging and fun! Here’s a **more polished version** with **better readability, markdown styling, and some slight refinements for flow and clarity**:
-
----
-
 # **What Do I Want to Eat? 🍽️🤔**  
 
 We've all been there. Whether it's just you, you and your significant other, or a whole group of friends, deciding where to eat can be a struggle.  
