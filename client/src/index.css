@@ -1,0 +1,14 @@
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1E1E1E; /* Ensures background is consistent */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
