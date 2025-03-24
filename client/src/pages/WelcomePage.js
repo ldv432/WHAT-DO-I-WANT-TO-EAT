@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import { Button, Container, Box, Typography, TextField } from "@mui/material";
+import { Button, Container, Box, Typography } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import burgerLogo from "../assets/logo.png";
 import "@fontsource/montserrat/900.css";
 import Login from "../components/LoginForm.js";
 import Signup from "../components/SignupForm.js";
+import { useNavigate } from "react-router-dom";
 
 const theme = createTheme({
   typography: {
@@ -28,6 +29,7 @@ const theme = createTheme({
 
 const WelcomePage = () => {
   const [activeForm, setActiveForm] = useState(null);
+  const navigate = useNavigate();
 
   const handleToggleForm = (formType) => {
     setActiveForm(formType);
@@ -91,7 +93,7 @@ const WelcomePage = () => {
               backgroundColor: "#008000",
               "&:hover": { backgroundColor: "#006400" },
             }}
-            onClick={() => handleToggleForm("login")}
+            onClick={() => navigate("/login")}
           >
             Log In
           </Button>
@@ -101,7 +103,7 @@ const WelcomePage = () => {
               backgroundColor: "#B71C1C",
               "&:hover": { backgroundColor: "#8B0000" },
             }}
-            onClick={() => handleToggleForm("signup")}
+            onClick={() => navigate("/signup")}
           >
             Sign Up
           </Button>
@@ -109,8 +111,7 @@ const WelcomePage = () => {
 
         {/* Dynamic Login or Signup Form */}
         {activeForm === "login" && <Login />}
-        {activeForm === "signup" && <Signup/>}
-
+        {activeForm === "signup" && <Signup />}
       </Container>
     </ThemeProvider>
   );
