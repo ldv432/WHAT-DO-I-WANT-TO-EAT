@@ -1,7 +1,10 @@
 import React from "react";
-import { Box, Typography, TextField, Button } from "@mui/material";
+import { Box, Typography, TextField, Button, Link } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 const SignupForm = () => {
+  const navigate = useNavigate();
+
   return (
     <Box
       sx={{
@@ -65,6 +68,19 @@ const SignupForm = () => {
         >
           Submit
         </Button>
+
+        <Typography
+          variant="body2"
+          sx={{ color: "#fff", textAlign: "center", mt: 2 }}
+        >
+          Already have an account?{" "}
+          <Link
+            onClick={() => navigate("/login")}
+            sx={{ cursor: "pointer", color: "#FF9800" }}
+          >
+            Log in here.
+          </Link>
+        </Typography>
       </Box>
     </Box>
   );
